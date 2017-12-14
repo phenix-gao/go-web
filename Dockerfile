@@ -1,5 +1,5 @@
 # build stage
-FROM golang:latest AS build-env
+FROM golang:latest
 MAINTAINER Brian Redmond <brianisrunning@gmail.com>
 WORKDIR /app
 ADD ./*.go /app/
